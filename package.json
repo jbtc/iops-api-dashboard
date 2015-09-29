@@ -1,0 +1,28 @@
+{
+  "name": "iops-api-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://TylerGarlick@github.com/jbtc/iops-api-dashboard.git"
+  },
+  "author": "Tyler Garlick <tjgarlick@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbtc/iops-api-dashboard/issues"
+  },
+  "homepage": "https://github.com/jbtc/iops-api-dashboard#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.1",
+    "hapi": "^10.1.0",
+    "rethinkdbdash": "^2.1.8"
+  }
+}
